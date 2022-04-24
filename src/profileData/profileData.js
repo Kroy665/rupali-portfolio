@@ -18,7 +18,7 @@ const data = {
         },
         {
             key: "Contact No",
-            value: "+91 7908264588"
+            value: "+918670717695"
         },
         {
             key: "Email Id",
