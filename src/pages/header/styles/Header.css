@@ -1,0 +1,25 @@
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+.profile-pic {
+    width: 35px;
+
+    border-radius: 5px;
+}
+.toggle-button-div{
+    margin-right: 20px;
+}
+.profile-name{
+    font-family: 'Luxurious Roman', cursive;
+    margin-left: 20px;
+}
+.small-profile-pic{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}

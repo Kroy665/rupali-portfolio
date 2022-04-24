@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-link img{
+    width: 30px;
+    margin: 20px 10px 0 10px;
+}

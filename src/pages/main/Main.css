@@ -1,0 +1,120 @@
+.main{
+    padding-top: 50px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    /* height: fit-content; */
+    align-items: center;
+}
+.profile-pic-div{
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+}
+.profile-pic-img{
+    width: 90%;
+    /* height: 90%; */
+    margin: 10px;
+    border-radius: 50%;
+}
+.details-nav{
+    width: calc(100% * 2/ 3);
+    /* height: calc(100% / 3); */
+    display: flex;
+    justify-content: center;
+}
+.name-div{
+    width: calc(100% / 3);
+    /* height: calc(100% / 3); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.personal-details-div{
+    width: calc(100% / 3);
+    /* height: calc(100% / 3); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.main-div{
+    display: flex;
+    
+}
+.main-left-div{
+    width: calc(100% / 3);
+    padding: 30px;
+}
+.main-left-div h2{
+    /* text-align: center; */
+}
+.education-sections-div{
+    padding: 0 20px;
+}
+.education-sections-span{
+    font-weight: bold;
+}
+.work_skills li{
+    /* list-style:none; */
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.main-right-div{
+    width: calc(100% * 2 / 3);
+    padding: 30px;
+}
+.my-writting-p{
+    padding: 0 5px;
+    text-align: justify;
+}
+
+
+
+
+.hr-2{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+.hr-1{
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+
+@media only screen and (max-width: 720px) {
+    .main-nav{
+        flex-direction: column;
+    }
+    .details-nav{
+        width: 100%;
+    }
+    .name-div{
+        width: calc(100% / 2);
+    }
+    .personal-details-div{
+        width: calc(100% / 2);
+    }
+    .main-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-left-div{
+        width: 80%;
+        padding: 10px;
+        margin: auto;
+    }
+    .main-right-div{
+        width: 80%;
+        padding: 10px;
+        margin: auto;
+    }
+  }
