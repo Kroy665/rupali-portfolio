@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 // import { lightToDark } from '../../features/lightDarkMode/lightDark';
 import './Main.css'
-import profilrPic from '../../profileData/rakhi.jpg'
+import profilrPic from '../../profileData/profilePic.jpg'
 import data from '../../profileData/profileData';
 function Main() {
   const lightDark = useSelector((state) => state.lightDark.value)

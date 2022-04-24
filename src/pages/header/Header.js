@@ -3,7 +3,7 @@ import data from "../../profileData/profileData";
 import "./styles/Header.css";
 import { useSelector} from 'react-redux';
 // import { lightToDark } from '../../features/lightDarkMode/lightDark';
-import rakhi from '../../profileData/rakhi.jpg'
+import profilePic from '../../profileData/profilePic.jpg'
 
 import ToggleBtn from '../../components/ToggleBtn'
 function Header() {
@@ -23,7 +23,7 @@ function Header() {
     <div className="header" style={lightDark? lightModeStyle: darkModeStyle}>
 
       <div className="small-profile-pic">
-        <img src={rakhi} className="profile-pic" alt={data.first_name}/>
+        <img src={profilePic} className="profile-pic" alt={data.first_name}/>
         <p className="profile-name">{data.first_name} {data.last_name}</p>
       </div>
       <div className="toggle-button-div">

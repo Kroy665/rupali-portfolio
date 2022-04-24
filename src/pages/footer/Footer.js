@@ -31,7 +31,7 @@ function Footer() {
         }
       </div>
       <div>
-        <p>Copyright &copy; 2022 Rakhi Roy</p>
+        <p>Copyright &copy; 2022 {data.first_name} {data.last_name}</p>
       </div>
     </div>
   )

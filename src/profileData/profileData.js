@@ -1,99 +1,89 @@
 const data = {
-    first_name: "Rakhi",
-    last_name: "Roy",
-    job_title_for_navbar: "Professional Content Writer",
-    job_disc_for_navbar: "A Professional content writer for web article, magazin, news report",
+    first_name: "Rupali",
+    last_name: "Das",
+    job_title_for_navbar: "Professional Content Writer and Journalist",
+    job_disc_for_navbar: "A Professional content writer for Web Article, Magazin, News Report",
     personal_data: [
         {
-            key: "Age",
-            value: "24"
+            key: "Address",
+            value: "Vill – Kurkutia (Near Hospital Road), Post – Khatra, Dist – Bankura - 722140"
         },
         {
-            key: "Work",
-            value: "working as freelancer"
+            key: "Date of Birth",
+            value: "4th Sept 1995"
         },
         {
-            key: "Email Id",
-            value: "royrakhi1997@gmail.com"
+            key: "Language Known",
+            value: "Bengali, English, Hindi"
         },
         {
             key: "Contact No",
             value: "+91 7908264588"
-        }
+        },
+        {
+            key: "Email Id",
+            value: "dasrupalijd@gmail.com"
+        },
     ],
     work_skills: [
         "Proficiency in English, Bengali and Hindi language.",
-        "SEO, WordPress",
-        "Target social media",
+        "Superb Writer and Editor",
+        "Social Midia Handling",
         "Competitor research",
         "Keyword research",
         "Interpersonal Communication Skills",
         "Teamwork Skills",
-        "Delivery within deadline."
+        "Video Audio Editing",
+        "Voice Over And News Anchoring"
     ],
-    my_writting: `I am a very efficient and professional content writer having 2 years of experience in this field. I believe, as long as one has the power of writing and researching, one can write on any niche. My contents are very market specific, SEO-optimized, elegant and engaging that attracts reader’s attention and hold it. I can assure you, there will be no compromise in quality and authenticity.`,
+    my_writting: `To take any sort of challenging job commensurate with any ability and knowledge to perform it successfully
+    would more than eager to shoulder responsibilities, which would broaden my knowledge and scope for future
+    development. I am able to work on own initiative or as a part of a team and can deal with my duties
+    competently.`,
 
     educations: [
         {
             category: "College",
-            institution: "ABN Seal College",
-            degree: "Bachelor of Arts in English Literature",
-            address: "Coochbehar",
-            marks: "58%",
+            institution: "Vivekananda College",
+            degree: "Bachelor of Arts: Mass Communication And Journalism",
+            address: "Burdwan, West Bengal, India",
+            marks: "56%",
         },
         {
             category: "University",
-            institution: ": Visva-Bharati University",
-            degree: "Master of Arts in English Literature",
-            address: "Birbhum",
-            marks: "68%",
+            institution: "University Of Burdwan",
+            degree: "Master of Arts: Mass Communication",
+            address: "Burdwan, West Bengal, India",
+            marks: "CGPA 6.4",
         }
     ],
 
     experiance: [
         {
-            from: "2019, Aug",
-            to: "",
-            title: "Appointed as the co-writer in the literarywebsite",
-            link: "http://www.englishliteraturenotes.co.in/",
-        },
-        {
             from: "2020, Jan",
-            to: "",
-            title: "Started working as a freelancer",
-            link: "https://digitalkranti.in/",
+            to: "2021, Feb",
+            title: "Content writer in Bongnews24x7",
+            link: "https://www.bongnews24x7.com/",
         },
         {
-            from: "2021, May",
-            to: "",
-            title: "Appointed as the chief content creatorinFullFormatoz company.",
-            link: "",
+            from: "2021, April",
+            to: "2021, July",
+            title: "Trainee Content Editor, Anchor in ETV Bharat, Hyderabad",
+            link: "https://www.etvbharat.com/bengali/west-bengal",
         },
         {
-            from: "",
-            to: "",
-            title: "Worked to the best of my ability with newcontent writersandteach them the art of content writing.",
-            link: "",
-        },
-        {
-            from: "",
-            to: "",
-            title: "Have been dealing with foreign clients fromUS andUK.",
-            link: "",
-        },
-        {
-            from: "",
-            to: "",
-            title: "Experience in writing over 200 articles till now.",
-            link: "",
+            from: "2021, Dec",
+            to: "Current",
+            title: "Content Writer and Anchor",
+            link: "https://krishijagran.com/",
         }
     ],
     work_samples: [
-        "https://bit.ly/30plbAI", "https://digitalkranti.in/best-inverter-battery-in-india/","https://www.fullformatoz.com/73/what-does-mri-stand-for-in-medical-terms"
+        
     ],
     social_links: {
-        facebook:"https://www.facebook.com/tanha.dil.5",
-        instagram: "https://www.instagram.com/its_rakhi_roy",
+        facebook:"https://www.facebook.com/profile.php?id=100028678870016",
+        instagram: "https://www.instagram.com/das_saurupa_das/",
         linkedin: "",
         twitter: ""
     }
