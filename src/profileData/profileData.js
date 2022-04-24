@@ -28,7 +28,7 @@ const data = {
     work_skills: [
         "Proficiency in English, Bengali and Hindi language.",
         "Superb Writer and Editor",
-        "Social Midia Handling",
+        "Social Media Handling",
         "Competitor research",
         "Keyword research",
         "Interpersonal Communication Skills",
