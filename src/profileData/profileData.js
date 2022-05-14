@@ -79,7 +79,16 @@ const data = {
         }
     ],
     work_samples: [
-        
+        "https://www.etvbharat.com/bengali/west-bengal/sitara/bollywood/remembering-late-actor-sushant-singh-rajput/wb20210614065722000",
+        "https://bengali.krishijagran.com/news/dilip-ghosh-have-fun-with-petrol-behind-the-grassroots-leaders-why-the-price-of-potato-is-going-up/",
+        "https://bengali.krishijagran.com/news/ipl-2022-kolkata-knight-riders-vs-mumbai-indians-kolkata-beat-mumbai-indians/",
+        "https://bengali.krishijagran.com/news/3-million-tea-trees-cutting-to-build-the-airport-ha-hutash-workers-in-tears/",
+        "https://bengali.krishijagran.com/weather/ashanis-strength-is-increasing-heavy-rains-are-pouring-down-the-coast-in-these-6-districts/",
+        "https://www.etvbharat.com/bengali/west-bengal/state/bankura/tourism-industry-affected-due-to-covid-at-mukutmanipur/wb20210512163524848",
+        "https://www.etvbharat.com/bengali/west-bengal/state/hooghly/post-poll-violence-broke-out-between-trinamool-and-bjp-across-hooghly-district/wb20210505140830679",
+        "https://www.etvbharat.com/bengali/west-bengal/sitara/bollywood/farhan-akhtar-writes-a-emotional-note-to-milkha-singh/wb20210619094603453",
+        "https://www.bongnews24x7.com/indian-man-proposes-to-his-australian-girlfriend-during-ind-vs-aus-cricket-match-here-is-what-happened-next/",
+        "https://fb.watch/5Y59gq31m6/"
     ],
     social_links: {
         facebook:"https://www.facebook.com/profile.php?id=100028678870016",
