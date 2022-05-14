@@ -24,6 +24,10 @@ const data = {
             key: "Email Id",
             value: "dasrupalijd@gmail.com"
         },
+        {
+            key: "Portfolio",
+            value: "https://subtle-gumption-6b7dab.netlify.app/"
+        },
     ],
     work_skills: [
         "Proficiency in English, Bengali and Hindi language.",
