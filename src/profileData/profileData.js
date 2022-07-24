@@ -2,7 +2,7 @@ const data = {
     first_name: "Rupali",
     last_name: "Das",
     job_title_for_navbar: "Professional Content Writer and Journalist",
-    job_disc_for_navbar: "A Professional content writer for Web Article, Magazin, News Report",
+    job_disc_for_navbar: "A Professional content writer for Web Article, Magazine, News Report",
     personal_data: [
         {
             key: "Address",
@@ -55,7 +55,7 @@ const data = {
         },
         {
             category: "University",
-            institution: "University Of Burdwan",
+            institution: "The University Of Burdwan",
             degree: "Master of Arts: Mass Communication",
             address: "Burdwan, West Bengal, India",
             marks: "CGPA 6.4",
