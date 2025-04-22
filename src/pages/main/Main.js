@@ -40,7 +40,44 @@ function Main() {
             {data.personal_data.map((dt, index) =>
               <div key={index}>
                 <span>{dt.key}</span> : {" "}
-                <span>{dt.value}</span>
+
+                {dt.type === 'string' && (
+                  <span>{dt.value}</span>
+                )}
+
+                {dt.type === 'url' && (
+                  <a
+                    href={dt.value}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={style.anc}
+                  >
+                    {dt.value}
+                  </a>
+                )}
+
+                {dt.type === 'phone' && (
+                  <a
+                    href={`tel:${dt.value}`}
+                    style={style.anc}
+                  >
+                    {dt.value}
+                  </a>
+                )}
+                {dt.type === 'email' && (
+                  <a
+                    href={`mailto:${dt.value}`}
+                    style={style.anc}
+                  >
+                    {dt.value}
+                  </a>
+                )}
+                {dt.type === 'date' && (
+                  <span>{dt.value}</span>
+                )}
+                {index !== data.personal_data.length - 1 && <hr className='hr-1' />}
+                {index === data.personal_data.length - 1 && <hr className='hr-1' />}
+                {/* <hr className='hr-1' /> */}
                 <hr />
               </div>
             )}

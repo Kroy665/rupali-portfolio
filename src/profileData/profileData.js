@@ -6,27 +6,33 @@ const data = {
     personal_data: [
         {
             key: "Address",
-            value: "Vill – Kurkutia (Near Hospital Road), Post – Khatra, Dist – Bankura - 722140"
+            value: "Vill – Kurkutia (Near Hospital Road), Post – Khatra, Dist – Bankura - 722140",
+            type: "string",
         },
         {
             key: "Date of Birth",
-            value: "4th Sept 1995"
+            value: "4th Sept 1995",
+            type: "date",
         },
         {
             key: "Language Known",
-            value: "Bengali, English, Hindi"
+            value: "Bengali, English, Hindi",
+            type: "string",
         },
         {
             key: "Contact No",
-            value: "+918670717695"
+            value: "+918670717695",
+            type: "phone",
         },
         {
             key: "Email Id",
-            value: "dasrupalijd@gmail.com"
+            value: "dasrupalijd@gmail.com",
+            type: "email",
         },
         {
             key: "Portfolio",
-            value: "https://subtle-gumption-6b7dab.netlify.app/"
+            value: "https://subtle-gumption-6b7dab.netlify.app/",
+            type: "url",
         },
     ],
     work_skills: [
@@ -77,12 +83,21 @@ const data = {
         },
         {
             from: "2021, Dec",
-            to: "Current",
-            title: "Content Writer and Anchor",
+            to: "2024, Oct",
+            title: "Content Writer and Anchor in Krishi Jagran",
             link: "https://krishijagran.com/",
+        },
+        {
+            from: "2024, Nov",
+            to: "Present",
+            title: "As Bengali Content Writer and an anchor in Ritam Digital Foundation",
+            link: "https://ritamdigital.com/",
         }
     ],
     work_samples: [
+        "https://youtu.be/KX70DLGcKKI?si=YJVeUpYpKYpIiEL6",
+        "https://youtu.be/x-dV8wN4Owo?si=xbeRUQ-CpUAW_okY",
+        "https://youtu.be/Gy8UxhPODWY?si=NkI2hSlNcMmrhuWG",
         "https://www.etvbharat.com/bengali/west-bengal/sitara/bollywood/remembering-late-actor-sushant-singh-rajput/wb20210614065722000",
         "https://bengali.krishijagran.com/news/dilip-ghosh-have-fun-with-petrol-behind-the-grassroots-leaders-why-the-price-of-potato-is-going-up/",
         "https://bengali.krishijagran.com/news/ipl-2022-kolkata-knight-riders-vs-mumbai-indians-kolkata-beat-mumbai-indians/",
@@ -98,7 +113,7 @@ const data = {
         facebook:"https://www.facebook.com/profile.php?id=100028678870016",
         instagram: "https://www.instagram.com/das_saurupa_das/",
         linkedin: "",
-        twitter: ""
+        x: ""
     }
 
 

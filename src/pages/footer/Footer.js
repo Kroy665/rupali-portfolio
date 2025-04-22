@@ -6,6 +6,9 @@ import twitter from './twitter.svg'
 import data from '../../profileData/profileData';
 import './Footer.css'
 function Footer() {
+
+  const thisYear = new Date().getFullYear();
+
   return (
     <div className='footer'>
       <div className='social-link'>
@@ -31,7 +34,7 @@ function Footer() {
         }
       </div>
       <div>
-        <p>Copyright &copy; 2022 {data.first_name} {data.last_name}</p>
+        <p>Copyright &copy; {thisYear} {data.first_name} {data.last_name}</p>
       </div>
     </div>
   )

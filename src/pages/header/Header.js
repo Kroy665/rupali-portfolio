@@ -5,7 +5,6 @@ import { useSelector} from 'react-redux';
 // import { lightToDark } from '../../features/lightDarkMode/lightDark';
 import profilePic from '../../profileData/profilePic.jpg'
 
-import ToggleBtn from '../../components/ToggleBtn'
 function Header() {
   const lightDark = useSelector((state) => state.lightDark.value)
   // const dispatch = useDispatch()
@@ -26,9 +25,9 @@ function Header() {
         <img src={profilePic} className="profile-pic" alt={data.first_name}/>
         <p className="profile-name">{data.first_name} {data.last_name}</p>
       </div>
-      <div className="toggle-button-div">
+      {/* <div className="toggle-button-div">
         <ToggleBtn label={'Dark Mode'} />
-      </div>
+      </div> */}
     </div>
   );
 }
